@@ -147,18 +147,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAsyncModal }) =>
                 </a>
               </div>
 
-              {/* Secondary Architecture Call Anchor + Guarantee Metadata */}
+              {/* Guarantee Metadata + Optional Written Audit Modal Trigger */}
               <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-slate-400">
                 <span>Zero GCI split</span>
                 <span aria-hidden="true">·</span>
                 <span>14-day turnkey installation</span>
-                <span aria-hidden="true">·</span>
-                <a
-                  href="#book-call"
-                  className="text-indigo-400 hover:text-indigo-300 underline underline-offset-4 font-medium transition-colors"
-                >
-                  Or Book a 15-Min Architecture Call →
-                </a>
                 {onOpenAsyncModal && (
                   <>
                     <span aria-hidden="true">·</span>
